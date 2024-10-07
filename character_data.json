@@ -1,0 +1,168 @@
+{
+    "Character": {
+        "Species": "Warforged",
+        "Class & Level": "Ranger 8",
+        "Background": "Criminal / Spy",
+        "Armor Class": 17,
+        "Speed": "30 ft. Walking",
+        "Hit Dice": "1d10 per Ranger level",
+        "Proficiencies & Training": [
+            "Light Armor",
+            "Medium Armor",
+            "Shields",
+            "Firearms",
+            "Martial Weapons",
+            "Simple Weapons"
+        ],
+        "Resistances": ["Poison"],
+        "Immunities": ["Disease", "Magical Sleep"],
+        "Languages": ["Common", "Dwarvish", "Undercommon"],
+        "Favored Enemy": "Advantage on Survival checks to track favored enemies and on Intelligence checks to recall information about them; learn one language of choice related to the enemy"
+    },
+    "Attributes": {
+        "Strength": {
+            "Score": null,
+            "Modifier": "+5"
+        },
+        "Dexterity": {
+            "Score": null,
+            "Modifier": "+4"
+        },
+        "Constitution": {
+            "Score": null,
+            "Modifier": null
+        },
+        "Intelligence": {
+            "Score": null,
+            "Modifier": "+5"
+        },
+        "Wisdom": {
+            "Score": null,
+            "Modifier": "+4"
+        },
+        "Charisma": {
+            "Score": null,
+            "Modifier": null
+        }
+    },
+    "Skills": {
+        "Acrobatics (DEX)": null,
+        "Arcana (INT)": "+5",
+        "Athletics (STR)": "+5",
+        "Deception (CHA)": null,
+        "History (INT)": null,
+        "Insight (WIS)": "+4",
+        "Investigation (INT)": null,
+        "Medicine (WIS)": null,
+        "Nature (INT)": null,
+        "Perception (WIS)": null,
+        "Performance (CHA)": "+7",
+        "Persuasion (CHA)": null,
+        "Religion (INT)": null,
+        "Sleight of Hand (DEX)": "+5",
+        "Stealth (DEX)": null,
+        "Survival (WIS)": "+13"
+    },
+    "Inventory": {
+        "Currency": {
+            "Copper Pieces (CP)": null,
+            "Electrum Pieces (EP)": null,
+            "Gold Pieces (GP)": null,
+            "Silver Pieces (SP)": null
+        },
+        "Items": [
+            {
+                "Name": "Longbow",
+                "Quantity": 1,
+                "Weight": null,
+                "Notes": "Ranged weapon"
+            },
+            {
+                "Name": "Arrows",
+                "Quantity": "Varies",
+                "Weight": null,
+                "Notes": "Ammunition for longbow"
+            },
+            {
+                "Name": "Unarmed Strike (Natural Weapon)",
+                "Quantity": null,
+                "Weight": null,
+                "Notes": "Base melee attack"
+            },
+            {
+                "Name": "Playing Card Set",
+                "Quantity": 1,
+                "Weight": null,
+                "Notes": "Tool"
+            },
+            {
+                "Name": "Thieves' Tools",
+                "Quantity": 1,
+                "Weight": null,
+                "Notes": "Tool for lockpicking"
+            },
+            {
+                "Name": "Tinker's Tools",
+                "Quantity": 1,
+                "Weight": null,
+                "Notes": "Tool for repairs and modifications"
+            },
+            {
+                "Name": "Attuned Magic Items",
+                "Quantity": null,
+                "Weight": null,
+                "Notes": "Not listed in detail"
+            }
+        ]
+    },
+    "Actions": {
+        "Standard Actions": [
+            "Attack",
+            "Magic",
+            "Dash",
+            "Disengage",
+            "Dodge",
+            "Help",
+            "Hide",
+            "Ready",
+            "Search",
+            "Utilize",
+            "Opportunity Attack",
+            "Grapple",
+            "Shove",
+            "Improvise",
+            "Two-Weapon Fighting",
+            "Interact with an Object",
+            "Study",
+            "Influence"
+        ],
+        "Special Actions": [
+            {
+                "Name": "Colossus Slayer",
+                "Description": "Once per turn, when you hit a creature with a weapon attack, it takes an extra 1d8 damage if it’s below its HP maximum."
+            }
+        ]
+    },
+    "Weapon Attacks & Cantrips": [
+        {
+            "Name": "Longbow",
+            "Damage/Type": "Piercing",
+            "Dice Roll": "1d8",
+            "Notes": "Ranged, two-handed, requires ammunition"
+        },
+        {
+            "Name": "Unarmed Strike",
+            "Damage/Type": "Bludgeoning",
+            "Dice Roll": "3",
+            "Notes": "Base melee attack"
+        }
+    ],
+    "Dice Rolls Summary": {
+        "Colossus Slayer": "Deals an extra 1d8 damage when attacking a creature below its max HP.",
+        "Longbow": "1d8 damage for a ranged attack.",
+        "Hit Dice": "1d10 per Ranger level (used for recovering HP during rests)."
+    },
+    "Spellcasting": {
+        "Spells": []
+    }
+}
