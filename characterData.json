@@ -1,5 +1,6 @@
 {
     "Character": {
+        "Name": "Droid 11420",
         "Species": "Warforged",
         "Class & Level": "Ranger 8",
         "Background": "Criminal / Spy",
@@ -14,9 +15,18 @@
             "Martial Weapons",
             "Simple Weapons"
         ],
-        "Resistances": ["Poison"],
-        "Immunities": ["Disease", "Magical Sleep"],
-        "Languages": ["Common", "Dwarvish", "Undercommon"],
+        "Resistances": [
+            "Poison"
+        ],
+        "Immunities": [
+            "Disease",
+            "Magical Sleep"
+        ],
+        "Languages": [
+            "Common",
+            "Dwarvish",
+            "Undercommon"
+        ],
         "Favored Enemy": "Advantage on Survival checks to track favored enemies and on Intelligence checks to recall information about them; learn one language of choice related to the enemy"
     },
     "Attributes": {
@@ -139,7 +149,7 @@
         "Special Actions": [
             {
                 "Name": "Colossus Slayer",
-                "Description": "Once per turn, when you hit a creature with a weapon attack, it takes an extra 1d8 damage if it’s below its HP maximum."
+                "Description": "Once per turn, when you hit a creature with a weapon attack, it takes an extra 1d8 damage if it\u2019s below its HP maximum."
             }
         ]
     },
@@ -163,6 +173,87 @@
         "Hit Dice": "1d10 per Ranger level (used for recovering HP during rests)."
     },
     "Spellcasting": {
-        "Spells": []
+        "Spells": [
+            {
+                "Spell Name": "Mold Earth",
+                "Level": "Cantrip",
+                "Casting Time": "Instantaneous",
+                "Range": "30 ft. / 5 ft. Cube",
+                "Components": "V, S",
+                "Duration": "Instantaneous",
+                "Save/Attack": null,
+                "Notes": "Magic Initiate (Druid)"
+            },
+            {
+                "Spell Name": "Guidance",
+                "Level": "Cantrip",
+                "Casting Time": "Instantaneous",
+                "Range": "Touch",
+                "Components": "V, S",
+                "Duration": "Instantaneous",
+                "Save/Attack": null,
+                "Notes": "Magic Initiate (Druid)"
+            },
+            {
+                "Spell Name": "Detect Magic",
+                "Level": 1,
+                "Casting Time": null,
+                "Range": "Self / 30 ft. Sphere",
+                "Components": null,
+                "Duration": "Concentration, up to 10 minutes",
+                "Save/Attack": null,
+                "Notes": "Ranger"
+            },
+            {
+                "Spell Name": "Goodberry",
+                "Level": 1,
+                "Casting Time": null,
+                "Range": "Touch",
+                "Components": null,
+                "Duration": "Instantaneous",
+                "Save/Attack": null,
+                "Notes": "Ranger"
+            },
+            {
+                "Spell Name": "Entangle",
+                "Level": 1,
+                "Casting Time": null,
+                "Range": "90 ft. / 20 ft. Square",
+                "Components": null,
+                "Duration": "Concentration, up to 1 minute",
+                "Save/Attack": null,
+                "Notes": "Ranger"
+            },
+            {
+                "Spell Name": "Alarm",
+                "Level": 1,
+                "Casting Time": null,
+                "Range": "30 ft.",
+                "Components": null,
+                "Duration": "Instantaneous",
+                "Save/Attack": null,
+                "Notes": "Ranger"
+            },
+            {
+                "Spell Name": "Thunderwave",
+                "Level": 1,
+                "Casting Time": null,
+                "Range": "Self / 15 ft. Cube",
+                "Components": null,
+                "Duration": "Instantaneous",
+                "Save/Attack": null,
+                "Notes": "Ranger"
+            },
+            {
+                "Spell Name": "Magic Weapon",
+                "Level": 2,
+                "Casting Time": null,
+                "Range": "Self",
+                "Components": null,
+                "Duration": "Instantaneous",
+                "Save/Attack": null,
+                "Notes": "Ranger"
+            }
+        ]
     }
 }
