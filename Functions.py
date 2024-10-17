@@ -1,4 +1,4 @@
-#import Lines
+﻿#import Lines
 import random
 import sys
 from termcolor import colored, cprint
@@ -16,7 +16,7 @@ def importFiles():
     global attackList
     global characterInventory
 
-    with open('character_data.json', 'r') as file:
+    with open('characterData.json', 'r') as file:
         data = json.load(file)
     characterName = data['Character']['Name']
     # print('Name is',characterName)
@@ -107,7 +107,7 @@ def rollDice(howMany,diceType):
 
 def mainAttackFunction():
     # Load the character data (Weapon Attacks & Cantrips) from the JSON file
-    with open('character_data.json', 'r') as file:
+    with open('characterData.json', 'r') as file:
         data = json.load(file)
 
     #Prints Inventory Legibly.
@@ -281,7 +281,7 @@ def add_item_to_inventory(data):
     print(f"Item '{name}' added to the inventory!")
 
 
-def save_inventory(data, filename='character_data.json'):
+def save_inventory(data, filename='characterData.json'):
     """Saves the updated inventory back to the JSON file."""
     with open(filename, 'w') as file:
         json.dump(data, file, indent=4)
@@ -290,7 +290,7 @@ def save_inventory(data, filename='character_data.json'):
 
 def mainInventoryFunction():
     # Load the character data (inventory) from the JSON file
-    with open('character_data.json', 'r') as file:
+    with open('characterData.json', 'r') as file:
         data = json.load(file)
     
     # Display the current inventory
